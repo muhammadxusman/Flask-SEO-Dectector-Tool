@@ -7,10 +7,7 @@ import json
 app = Flask(__name__)
 
 def analyze_seo(url):
-    """
-    Deeply analyzes the website for SEO best practices.
-    Fixes previous issues and enhances with additional SEO checks.
-    """
+
     seo_score = 100
     suggestions = []
 
